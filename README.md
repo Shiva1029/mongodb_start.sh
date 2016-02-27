@@ -7,7 +7,6 @@ i.e., /home/username/mongodb_start.sh
  Copy paste the cronjob file
  ESC and then type :wq ENTER
  
- 
 check if mongod is running
 ps -aux
 ps grep mongod
@@ -17,7 +16,7 @@ ps -ef | grep -v grep | grep mongod
  Stop mongod
  kill <pid>
  
- WARNING
-Never use kill -9 (i.e. SIGKILL) to terminate a mongod instance.
+ ** WARNING
+ **Never use kill -9 (i.e. SIGKILL) to terminate a mongod instance.
  
 

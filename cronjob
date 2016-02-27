@@ -1,0 +1,6 @@
+#!/bin/bash
+SHELL=/bin/bash
+HOME=/
+MAILTO="email"
+
+* * * * * /bin/bash /home/username/mongod_start.sh >> /home/username/mongod_cron_log.log
